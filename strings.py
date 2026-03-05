@@ -144,7 +144,10 @@
 # print(string.count('o'))       #[--To check how many times the word is repeated in a string--]
 
 
-"""[3.Modification / Replacement]"""
+"""[3.Validation / Checking]"""
+
+
+"""[4.Modification / Replacement]"""
 
 # a = 'Python Django'
 # s=a.replace('D','d')
@@ -175,3 +178,9 @@
 # print(name.removesuffix('as'))  #[--Remove the given word from right to left we want to pass atleast an argument--]
 
 
+
+"""[5.Formating and Alignment]"""
+
+
+s="python"
+print(s.center(25,'*'))
