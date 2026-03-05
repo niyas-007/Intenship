@@ -182,5 +182,66 @@
 """[5.Formating and Alignment]"""
 
 
-s="python"
-print(s.center(25,'*'))
+# s="python"
+# print(s.center(25,'*'))
+
+
+
+# s="python"
+# print(s.ljust(25,'-'))
+
+# s="python"
+# print(s.rjust(25,'-'))
+
+
+# s="python"
+# print(s.isascii())            #[--all value in keyboard has an ascii value--]
+
+# s="python"
+# print(s.zfill(10))              #[--used to fill to zeros from given width--]
+
+
+# name="Niyas"
+# age=20
+# print("my name is {} and i'm {} years old".format(name,age))
+# print("my name is {0} and i'm {1} years old".format(name,age))
+# print("my name is {:^10} and i'm {:05} years old".format(name,age))
+
+# name="Niyas"
+# age=20
+# print(f"My name is {name} and i am {age} years old")
+# print("\"\"")
+
+
+"""[6. Splitting / joining]"""
+
+
+# s="Welcome-to-the-world-of-Python"
+# print(s.split())                        #[--split():-Used to split the given string it will be show in list datatype--]
+# print(s.split('-'))                     #[--In default it will split by spaces and also split y by any characters--]
+# print(s.split("-",3))                     #[--ALso we can specify how many elements can split--]
+
+# x="hello split"
+# print(x.split('l')) 
+
+
+# s="Welcome to the world of Python"
+# # print(s.rsplit(" ",3))                #[--we can split from right to left--]
+# splitted=s.split()
+# print(splitted)
+# joined_string=" ".join(splitted)        #[--join is used to join the splitted string--]
+# print(joined_string)
+
+# s="job=python"
+# print(s.partition("="))
+
+# s="python"
+# print(s.partition("pyhton"))               #[--patiion will show in tuple--]
+# print(s.partition("x"))
+
+# s="My name is Niyas"                        
+# print(s.partition(" "))                     #[--In partition it will concider only first occurence--]
+# print(s.split())                            #[--In split it will concider only all  occurence in a string--]
+# print(s.rpartition(" "))                    #[--Execution done at right to left--]
+
+
