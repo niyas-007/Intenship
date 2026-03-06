@@ -245,3 +245,21 @@
 # print(s.rpartition(" "))                    #[--Execution done at right to left--]
 
 
+"""[7. Encoding / Decoding]"""
+
+# s="Niyas@1234"
+# print(s.encode(encoding="utf-8",errors="strict"))
+
+# s="Niyas@1234"
+# x=s.encode(encoding="utf-8",errors="strict")
+# print(x)
+# print(x.decode())
+
+
+"""[8. Miscellaneous]"""
+
+
+# print("hello\tpython".expandtabs())
+# print("hello\tpython".expandtabs(4))
+# print("hello\tpython".expandtabs(10))
+# print("hello\tpython".expandtabs(25))
