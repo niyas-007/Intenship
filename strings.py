@@ -262,4 +262,6 @@
 # print("hello\tpython".expandtabs())
 # print("hello\tpython".expandtabs(4))
 # print("hello\tpython".expandtabs(10))
-# print("hello\tpython".expandtabs(25))
+# print("hello\tpython".expandtabs(25))    [--spaces=tabspace-(current position % tabsize )So the given size will seen as diffrence--]
+
+
