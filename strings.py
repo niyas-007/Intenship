@@ -265,3 +265,10 @@
 # print("hello\tpython".expandtabs(25))    [--spaces=tabspace-(current position % tabsize )So the given size will seen as diffrence--]
 
 
+# print("banana".translate({97:'x',98:'y'}))
+# s="hello world"
+# print(s.translate({111:'0',100:'1'}))
+
+# s="Niyas"
+# x=(s.maketrans('as','xz','Ni'))
+# print(s.translate(x))
