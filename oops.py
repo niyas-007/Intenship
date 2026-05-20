@@ -140,40 +140,41 @@
 # print(Nasif.emp_name)                                     #in-built Function(To delete an attribute in an object)
 
 
-class Bank:
-    Bank_name="State Bank Of India"
+# class Bank:
+#     Bank_name="State Bank Of India"
 
 
-    def __init__(self,acc_no,name,ifsc,balance,):
-        self.Account_no=acc_no
-        self.Name=name
-        self.IFSC=ifsc
-        self.Balance=float(balance)
+#     def __init__(self,acc_no,name,ifsc,balance,):
+#         self.Account_no=acc_no
+#         self.Name=name
+#         self.IFSC=ifsc
+#         self.Balance=float(balance)
 
-    def get_details(self):
-        print(f"Account_no : {self.Account_no}\nName : {self.Name} ")
-        print(f"IFSC CODE : {self.IFSC}")
+#     def get_details(self):
+#         print(f"Account_no : {self.Account_no}\nName : {self.Name} ")
+#         print(f"IFSC CODE : {self.IFSC}")
 
-    def get_balance(self):
-        print(f"Account_no : {self.Account_no}\nBalance :{self.Balance}")
+#     def get_balance(self):
+#         print(f"Account_no : {self.Account_no}\nBalance :{self.Balance}")
 
-    def withdraw(self):
-        a = float(input("Enter Amount to Withdraw : "))
+#     def withdraw(self):
+#         a = float(input("Enter Amount to Withdraw : "))
 
-        if a > self.Balance:
-            print("Insufficient Fund....!!!")
-        else:
-            self.Balance -= a
-            print("Balance Amount =", self.Balance)
+#         if a > self.Balance:
+#             print("Insufficient Fund....!!!")
+#         else:
+#             self.Balance -= a
+#             print("Balance Amount =", self.Balance)
             
-    def Deposit(self):
-        b = float(input("\nEnter Amount to Deposit : "))
-        Total=self.Balance + b
-        print("\nTransaction Successfull .Current Balance =",Total)
+#     def Deposit(self):
+#         b = float(input("\nEnter Amount to Deposit : "))
+#         Total=self.Balance + b
+#         print("\nTransaction Successfull .Current Balance =",Total)
 
 
-Abdulla=Bank(acc_no=20405060,name="Abdulla K",ifsc="SBIN007Z500",balance="250000")
-Abdulla.get_details()
-Abdulla.get_balance()
-Abdulla.withdraw()
-Abdulla.Deposit()
+# Abdulla=Bank(acc_no=20405060,name="Abdulla K",ifsc="SBIN007Z500",balance="250000")
+# Abdulla.get_details()
+# Abdulla.get_balance()
+# Abdulla.withdraw()
+# Abdulla.Deposit()
+
